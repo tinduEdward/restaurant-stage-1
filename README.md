@@ -1,19 +1,33 @@
-***********************************************************************************************************************************************
+# Restaurant Reviews 
 
-## Restaurant Reviews
-The goal: A **responsive** web app that functions on any device or screen size. Ensure the web app meets the highest development by achieving **accessibility** standards. An app designed to be **mobile-first**.
+This is a restaurant reviews application using Google Maps. There are 2 main features covered in this - accessibility and responsive site.
 
-The tool: Mobile Web Specialist Nanodegree Program from [Udacity](https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024)
+## Getting Started
 
-#### Running the project
-In order to view the project in the browser, you can download, install and run [lite-server](https://www.npmjs.com/package/lite-server) and then navigate to http://localhost:3000/ .
-I am also running [Browsersync](https://browsersync.io/) . 
+Just download the file and start a simple python http server from this directory.
 
-#### Documentation
-[Udacity](https://eu.udacity.com/) - great courses
+### Prerequisites
 
-[IndexedDB Promised](https://github.com/jakearchibald/idb) - IndexedDB, but with promises
+You will need a browser like Chrome or Firefox or IE to test this. You will need Python installed on your machine to start a simple http server.
 
+## Deployment
 
-#### License 
-The contents of this repository are covered under the [MIT License](https://choosealicense.com/licenses/mit/).
+This code can be deployed as is on any Production Web server. Once done start https://localhost:8000
+
+## Built With
+
+* [HTML] 
+* [CSS]
+* [Javascript]
+
+## Authors
+
+* **Derlin Kulandai Raj aka Tindu** - *Initial work* - [tinduedward](https://github.com/tinduedward)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+None
