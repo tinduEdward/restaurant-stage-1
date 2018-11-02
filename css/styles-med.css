@@ -1,0 +1,72 @@
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  /* HOME PAGE */
+  #map {
+    width: 100%;
+  }
+
+  .filter-options h2 {
+    font-size: 1em;
+  }
+
+  .filter-options select {
+    width: 30%;
+    margin: 5px;
+    padding: 0;
+  }
+
+  #restaurants-list {
+    width: 100%;
+  }
+
+  #restaurants-list li {
+    width: calc(50% - 24px);
+  }
+
+  /* ****RESTAURANT DETAILS ******/
+  /*  details */
+  .restaurant-main {
+    position: relative;
+  }
+
+  .restaurant-main #map-container {
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    right: 0;
+    padding-right: 0;
+  }
+
+  #restaurant-container {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  #restaurant-name,
+  #restaurant-img,
+  #restaurant-cuisine {
+    width: 50%;
+  }
+
+  #restaurant-name {
+    text-align: center;
+  }
+
+  #restaurant-address {
+    width: 40%;
+    padding-left: 20px;
+  }
+
+  #restaurant-hours {
+    width: 80%;
+    margin: 0 auto;
+    text-align: end;
+  }
+
+  #restaurant-hours tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  #restaurant-hours tr :first-child {
+    text-align: start;
+  }
+}
